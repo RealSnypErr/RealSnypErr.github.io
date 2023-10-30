@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #8ab7eb, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 640px;
+    background-image: linear-gradient(to right, #8ab7eb 30%, #ffffff);
+}
+
+.container:hover{
+    background-image: linear-gradient(to right, #91bced 30%, #ffffff);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+ul a:hover{
+    border-block: 2px solid #fff;
+}
+
+.content{
+    width: 49%;
+    margin-top: 50px;
+    padding: 30px;
+    color: #000;
+    float: left;
+}
+
+.content h2{
+    font-size: 70px;
+}
+
+.content p.kanji{
+    font-size: 15px;
+    padding-block: 0;
+    padding-left: 40%;
+    margin: 0;
+}
+.content p{
+    initial-letter: 4px;
+    width: 420px;
+    padding: 20px 0;
+}
+
+.content button{
+    font-size: 26px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: solid;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.content button:hover{
+    background-color: #fff;
+    opacity: 0.9;
+}
