@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300&family=Orbitron:wght@400&display=swap');
+
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.panelline{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vw;
+}
+
+body{
+    background-image: radial-gradient( #9f9f9f, #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 35%;
+    height: 88vh;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.container:hover{
+    background-color: rgba(255,255,255,0.2)
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+a{
+    font-size: 4vh;
+    color:#000;
+    text-decoration: none;
+}
+
+button{
+    font-size: 5vh;
+    padding: 1.5vh 1.5vw;
+    border-radius: 10px;
+    border: solid;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 2px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.numbers{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operations{
+    display: inline-flex;
+}
+
+.operations button:focus{
+    background-color: rgba(255, 255, 255, 1);
+}
